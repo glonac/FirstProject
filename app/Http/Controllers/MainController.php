@@ -12,6 +12,7 @@ class MainController extends Controller
     }
     public function index(){
         $data = $this->main->getmain();
+        $full = 'Test';
         return view('fronted.main',compact('data'));
     }
 }
