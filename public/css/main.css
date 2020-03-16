@@ -1,0 +1,30 @@
+.carousel-item img{
+    height:500px;
+    width:100%;
+}
+#myCarousel{
+    margin-top: 0%;
+}
+#footer{
+    margin-top: 2rem ;
+    margin-left: 4rem;
+}
+#Text{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+#Service{
+    margin-top: 2rem ;
+}
+
+
+.header{
+    max-block-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://echo24.cz/img/5bf3f736ffd8142989c8b730/1910/1000?_sig=cqnNQPhx1fsM-ap4YZzYmeu7cEmw65XxtqLciwStFTM');
+    height: 700px;
+
+}
+
+
