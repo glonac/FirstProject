@@ -25,12 +25,12 @@ Route::get('/news', function () {
 Route::get('/School', function () {
     return view('Fronted.School');
 });
-Route::get('/OGE', function () {
-    return view('Fronted.OGE');
+Route::get('/news-show',function (){
+    return view('Fronted.news-show');
 });
-Route::get('/EGE', function () {
-    return view('Fronted.EGE');
-});
+Route::get('/OGE','ogeController@index')->name('main-oge');
+
+Route::get('/EGE','EgeController@index')->name('main-ege');
 Route::post('/School/submit', 'SchoolController@submit');
 
 

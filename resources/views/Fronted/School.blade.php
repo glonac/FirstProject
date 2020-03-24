@@ -1,7 +1,7 @@
 
 @extends('fronted.Loyats')
 @section('Schoolinfo')
-    <img src="https://www.justtalkeng.ru/upload/iblock/bcf/bcfa5daba56c8b86900440327ed6828b.jpg" class="img-fluid" alt="Адаптивные изображения">
+    <img src="https://www.justtalkeng.ru/upload/iblock/bcf/bcfa5daba56c8b86900440327ed6828b.jpg" class="img-fluid" alt="Адаптивные изображения" id="SchoolImg">
     <div class="container-fluid" id ="Text" >
         <div class="container row justify-content-center">
             <div class="col-md-8 blog-main">

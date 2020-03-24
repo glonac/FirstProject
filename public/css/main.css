@@ -1,13 +1,15 @@
 .carousel-item img{
-    height:500px;
+    height:600px;
     width:100%;
 }
 #myCarousel{
-    margin-top: 0%;
+ margin-top:0;
+}
+#SchoolImg{
+    height: 600px;
 }
 #footer{
     margin-top: 2rem ;
-    margin-left: 4rem;
 }
 #Text{
     margin-right: 2rem;
@@ -18,7 +20,7 @@
 }
 
 
-.header{
+#HeaderOge{
     max-block-size: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -26,5 +28,48 @@
     height: 700px;
 
 }
+#PersonalP{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+#PersonalPP{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+#PC{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+#Map{
+    margin-top: 2rem;
+    margin-left:0;
+    margin-right: 0;
+    padding: 0;
+}
+#Onas{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+#HeaderEge{
+    max-block-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-image: url('https://sun9-38.userapi.com/c858436/v858436091/1a8800/Wq-uqQEVLok.jpg');
 
-
+}
+#TextEge{
+    color: white;
+    margin-top: 10%;
+}
+.footer-item-block{
+    text-align: center;
+    padding: 0;
+}
+@media screen and (max-width: 991px) {
+    .featurette-item-block{
+        margin-top:2rem;
+        margin-bottom: 2rem;
+    }
+}

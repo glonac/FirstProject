@@ -19,12 +19,12 @@
                     @endphp
                 @endif
                 <div class="row featurette">
-                    <div class="col-md-7 col-sm-12 @php echo$iteratorArr[0];@endphp">
+                    <div class="featurette-item-block col-lg-7 col-md-12 col-sm-12 @php echo$iteratorArr[0];@endphp">
                         <h2 class="featurette-heading">{{$item->name}}</h2>
                         <p class="lead">{{$item->content}}</p>
                         <a href="{{$item->link}}" class="btn btn-outline-dark" role="button">Это интересно!</a>
                     </div>
-                    <div class="col-md-5 col-sm-12 @php echo$iteratorArr[1];@endphp">
+                    <div class="featurette-item-img col-lg-5 col-md-12 col-sm-12 @php echo$iteratorArr[1];@endphp">
                         @if(!empty($item->file_link))
                             <img class="featurette-image img-fluid mx-auto"  alt="{{$item->file_name}}" style="width: 500px; height: 400px;" src="{{$item->file_link}}" data-holder-rendered="true">
                         @endif
@@ -35,3 +35,4 @@
             @endif
     </div>
     @endsection
+<script src="{{asset('js/main.js')}}"></script>
