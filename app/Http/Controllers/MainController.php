@@ -12,7 +12,6 @@ class MainController extends Controller
     }
     public function index(){
         $data = $this->main->getmain();
-        $press_f ='f5';
         return view('fronted.main',compact('data'));
     }
 }
