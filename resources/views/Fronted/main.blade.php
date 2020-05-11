@@ -58,11 +58,11 @@
 
     <div class="container-fluid" id ="Text" >
         <div class="container row justify-content-center">
-    <div class="col-md-8 blog-main">
-            <h3 class="pb-3 mb-4 font-italic border-bottom">
+    <div class="col-md-8 col-lg-9 blog-main ">
+            <h3 class="pb-3 mb-4 font-italic border-bottom ">
             {{$data[0]->name}}
         </h3>
-        <div class="post" >
+        <div class="post " >
             {!!  $data[0]->content!!}
 </div>
         </div>

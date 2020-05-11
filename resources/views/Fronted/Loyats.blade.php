@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
     <meta charset="UTF-8">
-    <meta name="veiwport" content="width=device=width, inistal-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content ="ie=edge">
     <title>Main</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -52,7 +52,7 @@
                 <li><a class="text-muted" href="#">777</a></li>
             </ul>
         </div>
-        <div class="col-4 col-md-4 col-sm-12 footer-item-block">
+        <div class="col-4-lg-4 col-md-4 col-sm-12 footer-item-block">
             <h5>Мы в соц.сетях</h5>
             <ul class="list-unstyled text-small">
                 <li><a class="text-muted" target="_blank" href="https://vk.com/club93492308"><i class="fab fa-vk"></i></a></li>
@@ -60,7 +60,7 @@
             </ul>
         </div>
     </div>
-    </div>
+
 </footer>
 </html>
 
