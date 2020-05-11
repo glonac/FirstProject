@@ -19,14 +19,14 @@ Route::get('/Personal', function () {
 //    return view('Fronted.Services');
 //});
 Route::get('/Services','ServicesController@index')->name('services-list');
-Route::get('/news', function () {
-    return view('Fronted.news');
-});
+Route::get('/news-main','NewsmainController@index');
+Route::get('/news-main/{id}','NewsmainController@show')->name('news-show');
+
 Route::get('/School', function () {
     return view('Fronted.School');
 });
-Route::get('/news-show',function (){
-    return view('Fronted.news-show');
+Route::get('/news-main',function (){
+    return view('Fronted.news-main');
 });
 Route::get('/OGE','ogeController@index')->name('main-oge');
 

@@ -36,12 +36,6 @@
                     <p>Также в целях развития речи, памяти, логического мышления и других навыков мы предлагаем обучение английскому языку. Программа составлена на основе материалов, интересных детям этого возраста. Обучение проводится в игровой форме. Группы формируются в начале сентября. Количеств детей в каждой группе — 10–12 человек.</p>
                     <p>Хотите знать больше о нашей работе? Всё, что Вам нужно Вы найдёте на страницах этого сайта.</p>
 
-
-
-                    <h3 class="pb-3 mb-4 font-italic border-bottom">
-
-                        Оставить заявку прямо сейчас !
-                    </h3>
                     @if($errors->any())
                         <div class="alert alert-danger">
                             <ul>
@@ -51,8 +45,25 @@
                             </ul>
                         </div>
                     @endif
+
+                        <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-success btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
+                                Оставить заявку онлайн
+                            </button>
                     <form action="/School/submit" method="post">
-                        @csrf
+                    @csrf
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Оставить заявку</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+
                             <div class="order-md-2">
                         <div class="form-group">
                             <label for="name">Введите имя</label>
@@ -67,9 +78,11 @@
                             <input type="text" name="telefon" placeholder="Номер телефона" id="telefon" class="form-control">
                         </div>
                             </div>
-                        <button type="submit" class="btn btn-success btn-outline-dark" >Оставить заявку</button>
+                        <button type="submit" class="btn btn-success btn-outline-dark" >Отправить!</button>
                     </form>
-
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

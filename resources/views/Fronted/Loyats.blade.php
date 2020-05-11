@@ -17,7 +17,7 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="/">Главная</a>
             <a class="p-2 text-dark" href="Services">Услуги</a>
-            <a class="p-2 text-dark" href="news-show">Статьи</a>
+            <a class="p-2 text-dark" href="news-main">Статьи</a>
             <a class="p-2 text-dark" href="Personal">О нас</a>
         </nav>
     </div>
@@ -29,6 +29,7 @@
 @yield('EGE')
 @yield('PersonalInfo')
 @yield('newsshow')
+@yield('newsmain')
 <div class="container-fluid p-0 justify-content-center">
     <div class="container row">
         <div class="col-12">

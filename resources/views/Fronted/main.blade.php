@@ -16,11 +16,18 @@
         @endphp
 
         <div class="carousel-inner">
-            @if(isset($data))
+            <div class="carousel-item">
+            <img class="first-slide" src="https://www.justtalkeng.ru/upload/iblock/bcf/bcfa5daba56c8b86900440327ed6828b.jpg" alt="first slide">
+            <div class="container">
+                <div class="carousel-caption text-left">
+                    <h1>Комплексная подготовка к школе</h1>
 
-            @endif
+                    <p><a class="btn btn-light" href="School" role="button">Это интересно!</a></p>
+                </div>
+            </div>
+        </div>
             <div class="carousel-item active">
-                <img class="second-slide" src="https://zno.kiev.ua/wp-content/uploads/2019/03/school-pair5-3.jpg" alt="Second slide">
+                <img class="second-slide" src="https://enguide.ru/image.php?width=1500&height=1000&resized&image=/s/public/upload/images/687c/1a27/cb69/8af4/1a8b/c5f5/314b/1500x1000.jpeg" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption text-left">
                         <h1>Комплексная подготовка к ОГЭ</h1>

@@ -1,3 +1,6 @@
-@extends('fronted.Loyats')
-@section('newsshow')
-    @endsection
+
+    @foreach($newsShow as $item)
+        {{$item->content}}
+    @endforeach
+
+

@@ -1,3 +1,6 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+}
 .carousel-item img{
     height:600px;
     width:100%;
