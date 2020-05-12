@@ -1,5 +1,5 @@
 
-    @foreach($newsShow as $item)
+    @foreach($articlesShow as $item)
         {{$item->content}}
     @endforeach
 

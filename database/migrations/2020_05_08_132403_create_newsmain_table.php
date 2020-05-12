@@ -18,7 +18,6 @@ class CreateNewsmainTable extends Migration
             $table->text('content');
             $table->string('name');
             $table->string('url');
-            $table->timestamp('time');
         });
     }
 
