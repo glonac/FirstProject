@@ -19,6 +19,7 @@
             <a class="p-2 text-dark" href="Services">Услуги</a>
             <a class="p-2 text-dark" href="news-main">Статьи</a>
             <a class="p-2 text-dark" href="Personal">О нас</a>
+            <a class="p-2 text-dark" href="login">Войти</a>
         </nav>
     </div>
 </head>
@@ -30,6 +31,9 @@
 @yield('PersonalInfo')
 @yield('news-show')
 @yield('news-main')
+@yield('login')
+@yield('register')
+@yield('home')
 <div class="container-fluid p-0 justify-content-center">
     <div class="container row">
         <div class="col-12">

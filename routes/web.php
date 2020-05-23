@@ -32,3 +32,7 @@ Route::post('/School/submit', 'SchoolController@submit');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
