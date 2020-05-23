@@ -9,4 +9,7 @@ class SchoolController extends Controller
 {
     public function submit(SchoolRequest $req) {
     }
+    public function sendFormData(Request $request){
+        return response()->json(['data'=>$request->all()]);
+    }
 }

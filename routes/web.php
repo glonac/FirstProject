@@ -15,12 +15,11 @@ Route::get('/','MainController@index')->name('main-list');
 Route::get('/Personal', function () {
     return view('Fronted.Personal');
 });
-//Route::get('/Services', function () {
-//    return view('Fronted.Services');
-//});
+
 Route::get('/Services','ServicesController@index')->name('services-list');
-Route::get('/news-main','NewsmainController@index');
-Route::get('/news-main/{id}','NewsmainController@show')->name('articles-show');
+
+Route::get('news-main','NewsmainController@index');
+Route::get('news-main{id}','NewsmainController@show')->name('articles-show');
 
 Route::get('/School', function () {
     return view('Fronted.School');
@@ -28,7 +27,11 @@ Route::get('/School', function () {
 Route::get('/OGE','ogeController@index')->name('main-oge');
 
 Route::get('/EGE','EgeController@index')->name('main-ege');
-Route::post('/School/submit', 'SchoolController@submit');
+Route::post('/submitSchoolForm', 'SchoolController@sendFormData');
 
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

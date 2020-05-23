@@ -6,5 +6,6 @@ document.addEventListener('DOMContentLoaded',function () {
         $('.featurette-item-block').removeClass('order-md-first').removeClass('order-md-last');
         $('.featurette-item-img').removeClass('order-md-first').removeClass('order-md-last');
     }
+
 })
 
